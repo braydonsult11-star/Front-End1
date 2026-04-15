@@ -3,19 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Braydon</title>
+    <title>Frontend Simplified Practice</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
- <h1>Braydon</h1>
- <div class="text
- "></p></div>
- <p>Hey guys its braydon.</p></div>
- </body>
- <form>
-    <label> what are you most sacared of?</label>
-    <input type="radio">
-    Seth
-    <input type="radio">
-    JD
- </form>
+    <section>
+        <nav>
+            <img src="./assets/Fes.svg" class="logo" alt="">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+            <div>
+                <h1>Best place to learn frontend.</h1>
+                <p class="subheader">Go from being an absolute beginner to being a pro with a simplified process</p>
+                <button>Start now</button>
+            </div>
+            </div>
+            <figure>
+                <img src="./assets/laptop.png" alt="Home page image">
+            </figure>
+        </header>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="row">
+            <div class="section__description">
+            <div class="section__description--wrapper">
+                <p class="section__description--para">We are a team of passionate developers who love to teach others. Focusing on frontend development, we provide high-quality resources and a supportive community to help you succeed.
+                </p>
+                <p class="section__description--para">Our mission is to make learning frontend development accessible and enjoyable for everyone and to help you land your dream job in technology.
+                </p>
+              </div>
+                <figure class="about__img--wrapper">
+                    <img src="./assets/about.jpg" alt="About us image">
+                </figure>
+            </div>
+            </div>
+        </section>
+
+        <section id="discord">
+            <h2>Join Our Discord</h2>
+            <div class="row">
+            <div class="section__description">
+            <figure class="about__img--wrapper">
+                <img src="./assets/discord.png" alt="Discord image">
+            </figure>
+            <div class="section__description--wrapper">
+                <p class="section__description--para">Connect with other learners and get help from our community.
+
+                </p>
+                <p class="section__description--para">Join our Discord server to ask questions, share your progress, and collaborate with fellow frontend enthusiasts. We have channels for different topics, including HTML, CSS, JavaScript, and more.
+                </p>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="John Smith">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Let's get in touch!"></textarea>
+
+                <button type="submit">Contact Us!</button>
+            </form>
+            <div>
+                <p>Have questions? Get in touch with us!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="assets/FES.svg" class="footer__logo" alt="">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="">Courses</a>
+            
+        </div>
+        <p>&copy; 2023 Frontend Simplified. All rights reserved.</p>
+    </footer>
+    
+</body>
 </html>
